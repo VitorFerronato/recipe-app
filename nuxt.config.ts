@@ -19,6 +19,10 @@ export default defineNuxtConfig({
     },
   },
 
+  image: {
+    domains: ["https://cdn.dummy.json.com"],
+  },
+
   unhead: {
     renderSSRHeadOptions: {
       omitLineBreaks: false,
@@ -38,6 +42,4 @@ export default defineNuxtConfig({
       Montserrat: true,
     },
   },
-
-  
 });
